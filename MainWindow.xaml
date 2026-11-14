@@ -1,0 +1,14 @@
+﻿<Window x:Class="TileCountdown.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TileCountdown"
+        mc:Ignorable="d"
+        Title="磁贴倒数日" Height="300" Width="300">
+    <Grid Background="#202020">
+        <Button x:Name="SettingsButton" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Background="Black" BorderBrush="White" ToolTip="设置你的纪念日（重启生效）">
+            <Image HorizontalAlignment="Center" Height="100" Margin="0" VerticalAlignment="Center" Width="100" Source="/Settings.png"/>
+        </Button>
+    </Grid>
+</Window>
